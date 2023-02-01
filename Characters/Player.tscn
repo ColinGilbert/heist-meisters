@@ -6,6 +6,7 @@
 [ext_resource path="res://Lightmaps/torchmap.png" type="Texture" id=4]
 
 [node name="Player" instance=ExtResource( 1 )]
+collision_mask = 6
 script = ExtResource( 2 )
 
 [node name="Sprite" parent="." index="0"]
